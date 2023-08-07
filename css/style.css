@@ -239,7 +239,43 @@ ul.sub-manu li a:hover{
     color: #b19361;
 }
 
+/* service section  */
+section.service-section {
+    margin: 100px 0px;
+}
 
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-box {
+    flex-basis: 25%;
+    text-align: center;
+    padding: 20px 15px;
+}
+
+.image {
+    width: 77px;
+    margin: auto;
+}
+
+.image img {
+    display: block;
+    width: 100%;
+}
+
+.service-contant h2 {
+    font-size: 1.6rem;
+    margin: 18px 0px 15px;
+}
+
+.service-contant p {
+    font-size: 1.3rem;
+    color: #777;
+    line-height: 22px;
+}
+/* service section  */
 
 
 
