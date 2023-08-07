@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width: 80%;
+    margin:auto;
+}
+
+ html {
+    font-size: 10px;
+}
+a{
+    text-decoration: none;
+    color: #24262b;
+}
+ul{ 
+    list-style-type: none;
+}
+header{
+    background-color: #fef5ef;
+}
+
+/* header  */
+section.header-container {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hono-logo {
+    width: 100px;
+}
+
+.hono-logo img {
+    display: block;
+    width: 100%;
+}
+
+
+.main-manu {
+    flex: 1;
+    text-align: center;
+}
+.main-manu >ul >li , .active-links >ul li {
+    display:inline-block;
+    padding: 30px 26px;
+    position: relative;
+}
+.main-manu >ul >li a {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform:uppercase;
+    transition:0.5s;
+}
+.main-manu >ul >li a:hover{
+    color:#b19361;
+}
+.active-links ul li a {
+    font-size: 2.2rem;
+    font-weight: 100;
+    position: relative;
+}
+.active-links ul li:last-of-type a{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: #f2e8e780;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+}
+.active-links >ul li {
+    display:inline-block;
+    padding: 30px 16px;
+    position: relative;
+}
+.active-links ul li  span {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #b19361;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1rem;
+    color: #fff;
+    line-height: 15px;
+    top: 11px;
+    left: 13px;
+}
+
+ul.sub-manu {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background: #fff;
+    min-width: 200px;
+    padding: 20px 25px;
+    transform:perspective(500px) rotateX(-90deg);
+    transform-origin: top;
+    transition:.5s;
+    text-align: justify;
+}
+.main-manu ul li:hover ul.sub-manu{
+    transform: rotate(0deg);
+}
+ul.sub-manu li a {
+    font-weight: normal;
+    text-transform: none;
+    display: block;
+    padding: 6px 0px;
+}
+
+ul.sub-manu li a {
+    font-weight: normal;
+    text-transform: none;
+    display: block;
+    padding: 6px 0px;
+    transition:0.5s;
+}
+ul.sub-manu li a:hover{
+    transform: translatex(10px);
+}
+/* shop_div  */
+
+.shop-hover {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 0 33px;
+    width: 100%;
+
+}
+
+.shop-single ul li {
+    padding: 5px 9px;
+    display: block;
+    font-size: 17px;
+    font-weight: 700;
+}
+.shop-single ul li a{
+        font-size: 14px;
+        font-weight: 500;
+        text-decoration:none;
+        transition: 0.5s;
+        display: block;
+        line-height: 26px;
+        text-transform: none;
+}
+.shop-single ul li a:hover{
+    transform: translatex(10px);
+    color: #b19361;
+}
+.shop-single {
+    flex-basis: 25%;
+    text-align: justify;
+}
+
+.hover-title {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    transition: 0.5s;
+}
+.hover-title:hover{
+    color: #b19361;
+}
+.shoper{
+    width: 786px;
+    margin: auto;
+    position: absolute;
+    left: -103px;
+    top: 100%;
+    background: #fff;
+    padding: 20px 25px;
+    transform:perspective(500px) rotateX(-90deg);
+    transform-origin: top;
+    transition:.5s;
+}
+.main-manu ul li:hover .shoper{
+    transform: rotate(0deg);
+}
+.shop-img {
+    width: 100%;
+}
+
+.shop-img img {
+    display: block;
+    width: 100%;
+}
+/* shop_div  */
+
+/* header  */
+/* hero section  */
+.hero-section{
+    background-image:url(../image/hero-slider-1.webp);
+    background-size: cover;
+    height: 700px;
+    background-position: center;
+} 
+.hero-slider {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.content p {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin: 0 0 5px;
+}
+
+.content h2 {
+    font-size: 6.5rem;
+    font-weight: 700;
+    line-height: 65px;
+}
+
+.content a {
+    display: inline-block;
+    border: 1px solid #24262b;
+    padding: 20px 30px;
+    margin: 50px 0 0;
+    font-size: 1.4rem;
+    font-weight: 600;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.content a:hover {
+    color: #b19361;
+}
+
+
+
+
+
