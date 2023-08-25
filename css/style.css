@@ -704,3 +704,100 @@ section.product-section.product-defualt {
     color: white;
 }
 /* banner three section  */
+
+/* vlog section setyle  */
+section.vlog-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.vlog-header h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0px 0px 10px;
+}
+
+.vlog-header p {
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.vlog-header {
+    margin-bottom: 3%;
+}
+
+.vlog-wraper {
+    display: flex;
+    gap: 38px;
+}
+
+.vlog-box {
+    flex-basis: 33%;
+}
+
+.vlog-layer h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 27px 0px 15px 0px;
+    transition: 0.5s;
+}
+.vlog-layer h3:hover{
+    color: rgb(177, 147, 97);
+    cursor: pointer;
+}
+.vlog-layer p {
+    font-size: 1.6rem;
+    color: #777;
+    letter-spacing: 1px;
+}
+
+
+.vlog-layer a {
+      font-size: 1.6rem;
+      transition: 0.5s;
+      text-transform: uppercase;
+      font-weight: 700;
+}
+.vlog-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 18px;
+}
+.vlog-link i {
+    line-height: 15px;
+    font-size: 1.9rem;
+    margin-left: 10px;
+}
+.vlog-link span {
+    font-size: 1.5rem;
+    transition: 0.5s;
+}
+.vlog-link span:hover{
+    color: #b19361;
+    transition:0.5s;
+}
+.vlog-layer a:hover{
+    color: rgb(177, 147, 97);
+    cursor: pointer;
+}
+
+.vlog-image {
+    overflow: hidden;
+}
+
+.vlog-image img {
+    width: 100%;
+    display: block;
+    transition: 0.5s;
+}
+
+.vlog-box:hover img {
+    transform: scale(1.2);
+}
+.vlog-link i {
+    line-height: 15px;
+    font-size: 1.9rem;
+}
+/* vlog section style end  */
