@@ -801,3 +801,64 @@ section.vlog-section {
     font-size: 1.9rem;
 }
 /* vlog section style end  */
+/* ins section style  */
+section.instragram-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #f6f6f6;
+}
+.ins-wraper {
+    display: flex;
+    position: relative;
+}
+.ins-link a {
+    display: inline-block;
+    background: #fff;
+    padding: 10px 20px;
+    font-size: 2.0rem;
+    border-radius: 5px;
+    transform: translate(-50% , -50%);
+}
+
+.ins-link {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+.ins-img{
+    position: relative;
+}
+.ins-img::after{
+    content: "";
+    width: 0%;
+    height:100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+}
+.ins-img:hover::after{
+    width: 100%;
+    opacity: 0;
+    transition: 1.4s;
+}
+.ins-img::before{
+    content: "";
+    width: 100%;
+    height:0%;
+    background-color: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+}
+.ins-img:hover::before{
+    height: 100%;
+    opacity: 0;
+    transition: 1.4s;
+}
+
+/* ins section style  */
